@@ -29,7 +29,7 @@ struct ContentView: View {
 
                 Text("Hello, world!")
 
-                Toggle("Show ImmersiveSpace", isOn: $showImmersiveSpace)
+                Toggle("Hello Joe", isOn: $showImmersiveSpace)
                     .toggleStyle(.button)
                     .padding(.top, 50)
             }
